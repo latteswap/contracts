@@ -5,7 +5,7 @@ import "@pancakeswap/pancake-swap-lib/contracts/token/BEP20/BEP20.sol";
 // LatteToken with Governance.
 contract LatteToken is BEP20('LatteSwap Token', 'Latte') {
 
-    address taxAddr = 0xa6f937e8915916c763f40242DF9c1B056f8C7357;
+    address taxAddr = 0xa6f937e8915916c763f40242DF9c1B056f8C7357; // NON MODIFIABLE TAX ADDR. FUNDS WILL BE MANUALLY BURNED OR GIVEN AWAY ON SOCIAL MEDIA
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (MasterChef).
     function mint(address _to, uint256 _amount) public onlyOwner {
         _mint(_to, _amount);
