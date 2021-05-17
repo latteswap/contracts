@@ -12,3 +12,5 @@ Contract Addresses
 
 
 LatteSwap uses Pancake for Router and Factory Contracts. 
+MasterChef and LatteToken contracts are verified on bscscan. 17.06.2020
+The more verification will follow with audit
